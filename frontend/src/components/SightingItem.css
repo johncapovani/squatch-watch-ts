@@ -1,0 +1,70 @@
+.cards {
+  display: flex;
+  padding: 25px 0px;
+  list-style: none;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  max-height:40VH;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  flex: 0 0 25%;
+  padding: 20px;
+  margin: 5px;
+  background: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+  scroll-snap-align: start;
+  transition: all 0.2s;
+   max-height: 40VH;
+}
+
+.data-cardimage{
+
+    max-height: 100px;
+    max-width: 100px;
+
+}
+
+/* Report Button CSS */
+
+
+
+/* CSS */
+.viewreport {
+  background-color: #F17A2A;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #122723;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Neucha', cursive;
+  letter-spacing: 2px;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.viewreport:hover {
+  background-color: #122723;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .viewreport {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}

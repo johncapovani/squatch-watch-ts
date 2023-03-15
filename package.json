@@ -1,0 +1,36 @@
+{
+  "name": "squatch-repo",
+  "version": "1.0.0",
+  "description": "A group project designed with the intent  of allowing users that enjoy cryptology to post sightings, interact with fellow enthusiasts, and inform the globe of their findings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/index.js",
+    "server": "nodemon backend/index.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johncapovani/Squatch-Watch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johncapovani/Squatch-Watch/issues"
+  },
+  "homepage": "https://github.com/johncapovani/Squatch-Watch#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.3",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

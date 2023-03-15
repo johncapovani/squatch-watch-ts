@@ -1,0 +1,117 @@
+
+/* .reportSightingContainer {
+    background: #BAB3A3;
+    border: 1px solid black;
+    height: 65VH;
+    padding: 10px;
+    border-radius: 20px
+} */
+
+.reportform-container {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 60vh;
+    padding: 10px 5px;
+    box-sizing: border-box;
+
+}
+
+.reportform-container-item {
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 0px;
+    background: #BAB3A3;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+}
+
+.reportform-container-item-details {
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 0px;
+    background: #EDE9E1;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+}
+
+.reportform-container input[type=text], input[type=date], input[type=time]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: white;
+    
+}
+
+.detailarea {
+   width:100%;
+   
+    
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin-top: 20px;
+}
+
+/* Button Styling */
+
+.sightingButton {
+    appearance: none;
+    background-color: #16302B;
+    border: 2px solid #16302B;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: auto;
+    min-height: 60px;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+
+}
+
+.sightingButton:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.sightingButton:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+label {
+
+    color: #16302B;
+    font-weight: bold;
+    width: 130px;
+    float: left;
+
+}

@@ -1,0 +1,226 @@
+/* fonts */
+h2,
+h3{
+    font-family: 'Walter Turncoat', cursive;
+}
+
+h4,
+p{
+    font-family: 'Neucha', cursive;
+}
+
+/* background color */
+.container {
+    padding: 20px;
+    background-color: #122723;
+    margin: 0px;
+    height:100vh;
+}
+
+/* logo sizing */
+.logo {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    height: 2.5em;
+    width: 3.5em;
+    background-size: 100px;
+}
+
+/* page styling and management */
+.home {
+    background-image: linear-gradient(to bottom, #bab3a3, #afaa9c, #999486);
+    color: #2e0307a2;
+    font-weight: bold;
+    height: 75vh;
+    border-radius: 25px 25px 5px 5px;
+    text-align: center;
+    box-shadow: 7px 8px 5px black;
+    overflow: scroll;
+}
+
+.login {
+    background-image: linear-gradient(to bottom, #bab3a3, #afaa9c, #999486);
+    color: #2e0307a2;
+    height: 75vh;
+    border-radius: 25px 25px 5px 5px;
+    text-align: center;
+    box-shadow: 7px 8px 5px black;
+    padding: 1px;
+}
+
+.lform-control {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: white;
+    max-width: 50%;
+}
+
+.lbtn {
+    appearance: none;
+    background-color: #16302B;
+    border: 2px solid #16302B;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: auto;
+    min-height: 60px;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 50%;
+    will-change: transform;
+}
+
+.reportSightingContainer {
+    background-image: linear-gradient(to bottom, #bab3a3, #afaa9c, #999486);
+    color: #2e0307a2;
+    height: 75vh;
+    border-radius: 25px 25px 5px 5px;
+    text-align: center;
+    box-shadow: 7px 8px 5px black;
+    padding: 1px;
+}
+
+.register {
+    background-image: linear-gradient(to bottom, #bab3a3, #afaa9c, #999486);
+    color: #2e0307a2;
+    height: 75vh;
+    border-radius: 25px 25px 5px 5px;
+    text-align: center;
+    box-shadow: 7px 8px 5px black;
+    padding: 1px;
+}
+
+.rform-control {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: white;
+    max-width: 50%;
+}
+
+.rbtn {
+    appearance: none;
+    background-color: #16302B;
+    border: 2px solid #16302B;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: auto;
+    min-height: 60px;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 50%;
+    will-change: transform;
+}
+
+.account {
+    background-image: linear-gradient(to bottom, #bab3a3, #afaa9c, #999486);
+    color: #2e0307a2;
+    font-weight: bold;
+    height: 75vh;
+    border-radius: 25px 25px 5px 5px;
+    text-align: center;
+    box-shadow: 7px 8px 5px black;
+    padding: 1px;
+}
+
+/* nav bar */
+.list {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: nowrap;
+    margin: -45px 30px 0px 100px;
+}
+
+.nav {
+    display: flex;
+    background-color: #99917f;
+    text-decoration: none;
+    border-radius: 25px 25px 0px 0px;
+    margin: 0px 2px 0px 2px;
+    box-shadow: 4px 0px black;
+}
+
+/* nav bar style */
+.n1 {
+    padding: 15px 20px 15px 20px;
+    font-weight: bold;
+    color: #2e0307a2;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+.n2 {
+    padding: 15px 55px 15px 55px;
+    font-weight: bold;
+    color: #2e0307a2;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+.n3 {
+    padding: 15px 45px 15px 45px;
+    font-weight: bold;
+    color: #2e0307a2;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+.n4 {
+    padding: 15px 40px 15px 40px;
+    font-weight: bold;
+    color: #2e0307a2;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+/* Styling for logout button */
+.b1 {
+    padding: 15px 45px 19px 45px;
+    font-weight: 900;
+    color: #2e0307a2;
+    border: none;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+/* nav bar effects */
+.nav:focus {
+    background-color: #bab3a3;
+}
+
+.nav:hover {
+    background-color: #bab3a3;
+}
+
+

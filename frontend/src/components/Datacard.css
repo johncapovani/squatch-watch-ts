@@ -1,0 +1,59 @@
+hr{
+    border: 3px dashed #122723;
+    width: 90vw
+  }
+
+/* Simple View */
+.simpleStyle{
+    display: flex;
+    width: 80vw;
+    height: 8vh;
+    padding: 25px 10px 25px 40px;
+    
+}
+
+.simpleStyle > *{
+    margin: 0px 25px 0px 0px;
+    
+}
+
+.small-image{
+    width:100%;
+    max-height: 8vh;
+    border: 2px solid #EDE9E1;
+}
+
+/* Detailed View */
+.detailStyle {
+    display:flex;
+    width: 80vw;
+    height: 100%;
+    margin: 2px;
+    padding: 25px 10px 25px 40px;
+}
+
+.report{
+    padding:0px;
+    margin: 0px;
+}
+
+.detailed-info{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.description{
+    background-color: #EDE9E1;
+    padding: 30px;
+    border-radius: 15px;
+    width: 60vw;
+    height: 15vh;
+    font-size: 1em;
+    font-family: 'Neucha', cursive;
+}
+
+.large-image{
+    width:200px;
+    height:100%;
+    border: 2px solid #EDE9E1;
+}

@@ -1,0 +1,60 @@
+.footer{
+    padding: 15px;
+    margin: 0px 0px 0px 0px;
+    position:fixed;
+    bottom: 0;
+}
+
+.footer-text{
+    z-index: 2;
+    position: absolute;
+    width:90vw;
+    text-align: center;
+}
+
+.copyright{
+
+    font-size: 16px;
+    /* text-align: center; */
+    color:rgb(165, 177, 165);
+}
+
+.icons{
+    color:#F17A2A;
+    padding:4px;
+}
+
+.orange-text{
+    text-align: right;
+    color:#F17A2A;
+    font-size: 22px;
+    margin: 55px 0px 10px 0px;
+}
+
+.scrolling-image-container{
+    overflow: hidden;
+    z-index:-1;
+}
+
+.top-image {
+    background: url("../assets/fgfoot.png") repeat-x;
+    height: 130px;
+    width: 5120px;
+    animation: slide 90s linear infinite
+}
+
+.bottom-image {
+    background: url("../assets/bgfoot.png") repeat-x;
+    height: 130px;
+    width: 5120px;
+    animation: slide 120s linear infinite
+}
+
+@keyframes slide {
+    0% {
+      transform: translate(0);
+    }
+    100% {
+      transform: translate(-1280px); /* The image width */
+    }
+  }
